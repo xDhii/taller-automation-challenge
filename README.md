@@ -64,4 +64,4 @@ Test report also have white/dark mode. To switch, just click on the sun/moon ico
 Screenshots are also saved in the `results/browser/screenshot` folder. 
 They are also present inside the HTML report. To check, you'll need to open the HTML report, search for the test case, expand the steps and find for the keyword `Take Screenshot`.
 
-![alt text](assets/image.png)
+![alt text](report_example.png)
