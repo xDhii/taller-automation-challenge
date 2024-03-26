@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.6 on darwin)" generated="2024-03-25T22:09:47.550798" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/Users/adrianovalumin/Downloads/automation-challenge/tests">
+<suite id="s1-s1" name="Chrome" source="/Users/adrianovalumin/Downloads/automation-challenge/tests/chrome.robot">
+<test id="s1-s1-t1" name="Take Screenshot with Chrome in 320x480" line="7">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:49.316602" level="INFO">${resolutionWidth} = 320</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.315516" elapsed="0.001415"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:49.318539" level="INFO">${resolutionHeight} = 480</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.317337" elapsed="0.001284"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:49.319826" level="INFO">${browserName} = chromium</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.318844" elapsed="0.001046"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:49.320344" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.320089" elapsed="0.000313"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:09:49.321446" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.321014" elapsed="0.000501"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:09:49.321921" level="INFO">Set suite metadata 'Browser' to value 'chromium'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.321675" elapsed="0.000308"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:09:49.320625" elapsed="0.001471"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:09:49.323488" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 60000.0, "tracesDir": "/Users/adrianovalumin/Downloads/automation-challenge/results/browser/traces/799c53d9-e000-4ec2-a2ef-6ffb4597ed55"}</msg>
+<msg time="2024-03-25T22:09:50.007141" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":60000,"tracesDir":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/traces/799c53d9-e000-4ec2-a2ef-6ffb4597ed55"}</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:09:49.322284" elapsed="0.684972"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<msg time="2024-03-25T22:09:50.010014" level="INFO">No context open.</msg>
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:09:50.007490" elapsed="0.002600"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:09:52.327507" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:09:52.327558" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:09:50.010326" elapsed="2.317304"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:09:52.409594" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:09:52.327779" elapsed="0.081918"/>
+</kw>
+<arg>chromium</arg>
+<arg>${base_url}</arg>
+<arg>320</arg>
+<arg>480</arg>
+<status status="PASS" start="2024-03-25T22:09:49.313250" elapsed="3.096539"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:09:52.452624" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/chromium_screenshot_320x480_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/chromium_screenshot_320x480_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:09:52.410204" elapsed="0.042498"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:09:52.409975" elapsed="0.042810"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.455069" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:09:52.452932" elapsed="5.002682"/>
+</kw>
+<doc>Take Screenshot with Chrome web browser with set resolution in 320x480</doc>
+<tag>320x480</tag>
+<tag>chrome</tag>
+<status status="PASS" start="2024-03-25T22:09:49.308243" elapsed="8.148595"/>
+</test>
+<test id="s1-s1-t2" name="Take Screenshot with Chrome in 480x800" line="14">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.550544" level="INFO">${resolutionWidth} = 480</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.550156" elapsed="0.000421"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.551554" level="INFO">${resolutionHeight} = 800</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.550665" elapsed="0.000936"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.553163" level="INFO">${browserName} = chromium</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.551972" elapsed="0.001331"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.554018" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.553560" elapsed="0.000493"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.554890" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.554722" elapsed="0.000224"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:09:57.555223" level="INFO">Set suite metadata 'Browser' to value 'chromium'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.555095" elapsed="0.000155"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:09:57.554364" elapsed="0.000938"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:09:57.555714" level="INFO">Switching browser to browser=590a54f1-481f-4871-a45e-7e9d13036ca4</msg>
+<msg time="2024-03-25T22:09:57.556927" level="INFO">Successfully changed active browser: browser=590a54f1-481f-4871-a45e-7e9d13036ca4</msg>
+<msg time="2024-03-25T22:09:57.556974" level="INFO">Reusing existing browser with id: browser=590a54f1-481f-4871-a45e-7e9d13036ca4</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.555379" elapsed="0.001696"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.557221" elapsed="0.000524"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:09:59.589296" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:09:59.589358" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:09:57.557851" elapsed="2.031593"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:09:59.723563" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:09:59.589647" elapsed="0.134021"/>
+</kw>
+<arg>chromium</arg>
+<arg>${base_url}</arg>
+<arg>480</arg>
+<arg>800</arg>
+<status status="PASS" start="2024-03-25T22:09:57.549911" elapsed="2.173853"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:09:59.828320" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/chromium_screenshot_480x800_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/chromium_screenshot_480x800_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:09:59.724199" elapsed="0.104191"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:09:59.723972" elapsed="0.104487"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.829139" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:09:59.828589" elapsed="5.001014"/>
+</kw>
+<doc>Take Screenshot with Chrome web browser with set resolution in 480x800</doc>
+<tag>480x800</tag>
+<tag>chrome</tag>
+<status status="PASS" start="2024-03-25T22:09:57.548625" elapsed="7.282029"/>
+</test>
+<test id="s1-s1-t3" name="Take Screenshot with Chrome in 768x1024" line="21">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.908909" level="INFO">${resolutionWidth} = 768</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.908166" elapsed="0.000797"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.909764" level="INFO">${resolutionHeight} = 1024</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.909230" elapsed="0.000570"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.910283" level="INFO">${browserName} = chromium</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.909907" elapsed="0.000401"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.910484" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.910387" elapsed="0.000119"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.911117" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.910946" elapsed="0.000206"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:04.911348" level="INFO">Set suite metadata 'Browser' to value 'chromium'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.911232" elapsed="0.000141"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:04.910652" elapsed="0.000775"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:04.911891" level="INFO">Switching browser to browser=590a54f1-481f-4871-a45e-7e9d13036ca4</msg>
+<msg time="2024-03-25T22:10:04.913949" level="INFO">Successfully changed active browser: browser=590a54f1-481f-4871-a45e-7e9d13036ca4</msg>
+<msg time="2024-03-25T22:10:04.914031" level="INFO">Reusing existing browser with id: browser=590a54f1-481f-4871-a45e-7e9d13036ca4</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.911504" elapsed="0.002574"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.914311" elapsed="0.000398"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:06.971714" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:06.971769" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:04.914814" elapsed="2.057042"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:07.000286" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:06.972007" elapsed="0.028369"/>
+</kw>
+<arg>chromium</arg>
+<arg>${base_url}</arg>
+<arg>768</arg>
+<arg>1024</arg>
+<status status="PASS" start="2024-03-25T22:10:04.907309" elapsed="2.093170"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:07.054533" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/chromium_screenshot_768x1024_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/chromium_screenshot_768x1024_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:07.000956" elapsed="0.053662"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:07.000690" elapsed="0.054009"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.056622" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:07.054847" elapsed="5.002247"/>
+</kw>
+<doc>Take Screenshot with Chrome web browser with set resolution in 768x1024</doc>
+<tag>768x1024</tag>
+<tag>chrome</tag>
+<status status="PASS" start="2024-03-25T22:10:04.904703" elapsed="7.153468"/>
+</test>
+<doc>Take Screenshot with different browsers and resolutions</doc>
+<meta name="Browser">chromium</meta>
+<meta name="Website Tested">https://www.ebay.com/</meta>
+<status status="PASS" start="2024-03-25T22:09:47.564909" elapsed="24.570900"/>
+</suite>
+<suite id="s1-s2" name="Firefox" source="/Users/adrianovalumin/Downloads/automation-challenge/tests/firefox.robot">
+<test id="s1-s2-t1" name="Take Screenshot with Firefox in 320x480" line="7">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.144972" level="INFO">${resolutionWidth} = 320</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.144568" elapsed="0.000440"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.145489" level="INFO">${resolutionHeight} = 480</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.145109" elapsed="0.000410"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.145965" level="INFO">${browserName} = firefox</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.145606" elapsed="0.000383"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.146158" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.146066" elapsed="0.000113"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.146726" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.146510" elapsed="0.000293"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:12.147085" level="INFO">Set suite metadata 'Browser' to value 'firefox'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.146916" elapsed="0.000200"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:12.146285" elapsed="0.000895"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:12.147700" level="INFO">{"browser": "firefox", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 60000.0, "tracesDir": "/Users/adrianovalumin/Downloads/automation-challenge/results/browser/traces/7458140a-2316-453b-8dc1-db5b1dfe5e1c"}</msg>
+<msg time="2024-03-25T22:10:12.658469" level="INFO">Successfully created browser with options: {"browser":"firefox","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":60000,"tracesDir":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/traces/7458140a-2316-453b-8dc1-db5b1dfe5e1c"}</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.147266" elapsed="0.511300"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<msg time="2024-03-25T22:10:12.659876" level="INFO">No context open.</msg>
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.658721" elapsed="0.001220"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:14.080286" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:14.080339" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:12.660060" elapsed="1.420356"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:14.085294" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:14.080568" elapsed="0.004807"/>
+</kw>
+<arg>firefox</arg>
+<arg>${base_url}</arg>
+<arg>320</arg>
+<arg>480</arg>
+<status status="PASS" start="2024-03-25T22:10:12.144165" elapsed="1.941289"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:14.202469" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/firefox_screenshot_320x480_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/firefox_screenshot_320x480_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:14.085841" elapsed="0.116712"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:14.085622" elapsed="0.117015"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.204220" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:14.202777" elapsed="5.002586"/>
+</kw>
+<doc>Take Screenshot with Firefox web browser with set resolution in 320x480</doc>
+<tag>320x480</tag>
+<tag>firefox</tag>
+<status status="PASS" start="2024-03-25T22:10:12.141682" elapsed="7.064917"/>
+</test>
+<test id="s1-s2-t2" name="Take Screenshot with Firefox in 480x800" line="14">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.240241" level="INFO">${resolutionWidth} = 480</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.239694" elapsed="0.000589"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.240878" level="INFO">${resolutionHeight} = 800</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.240397" elapsed="0.000515"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.241755" level="INFO">${browserName} = firefox</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.241241" elapsed="0.000548"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.242010" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.241889" elapsed="0.000150"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.242515" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.242355" elapsed="0.000200"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:19.242783" level="INFO">Set suite metadata 'Browser' to value 'firefox'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.242643" elapsed="0.000173"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:19.242151" elapsed="0.000719"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:19.243359" level="INFO">Switching browser to browser=30b7d1f9-85f4-4e44-8d88-23a18850a6f3</msg>
+<msg time="2024-03-25T22:10:19.244416" level="INFO">Successfully changed active browser: browser=30b7d1f9-85f4-4e44-8d88-23a18850a6f3</msg>
+<msg time="2024-03-25T22:10:19.244464" level="INFO">Reusing existing browser with id: browser=30b7d1f9-85f4-4e44-8d88-23a18850a6f3</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.242960" elapsed="0.001541"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.244642" elapsed="0.000313"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:20.122681" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:20.122760" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:19.245065" elapsed="0.877809"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:20.135933" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:20.123131" elapsed="0.012917"/>
+</kw>
+<arg>firefox</arg>
+<arg>${base_url}</arg>
+<arg>480</arg>
+<arg>800</arg>
+<status status="PASS" start="2024-03-25T22:10:19.239315" elapsed="0.896833"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:20.190772" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/firefox_screenshot_480x800_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/firefox_screenshot_480x800_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:20.136590" elapsed="0.054266"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:20.136354" elapsed="0.054587"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.193072" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:20.191094" elapsed="5.002360"/>
+</kw>
+<doc>Take Screenshot with Firefox web browser with set resolution in 480x800</doc>
+<tag>480x800</tag>
+<tag>firefox</tag>
+<status status="PASS" start="2024-03-25T22:10:19.237831" elapsed="5.956318"/>
+</test>
+<test id="s1-s2-t3" name="Take Screenshot with Firefox in 768x1024" line="21">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.233697" level="INFO">${resolutionWidth} = 768</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.233214" elapsed="0.000523"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.234284" level="INFO">${resolutionHeight} = 1024</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.233846" elapsed="0.000469"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.234869" level="INFO">${browserName} = firefox</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.234418" elapsed="0.000481"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.235112" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.234990" elapsed="0.000150"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.235605" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.235443" elapsed="0.000198"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:25.235873" level="INFO">Set suite metadata 'Browser' to value 'firefox'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.235729" elapsed="0.000175"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:25.235248" elapsed="0.000709"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:25.236388" level="INFO">Switching browser to browser=30b7d1f9-85f4-4e44-8d88-23a18850a6f3</msg>
+<msg time="2024-03-25T22:10:25.237538" level="INFO">Successfully changed active browser: browser=30b7d1f9-85f4-4e44-8d88-23a18850a6f3</msg>
+<msg time="2024-03-25T22:10:25.237586" level="INFO">Reusing existing browser with id: browser=30b7d1f9-85f4-4e44-8d88-23a18850a6f3</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.236041" elapsed="0.001583"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.237888" elapsed="0.000346"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:26.164436" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:26.164508" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:25.238401" elapsed="0.926228"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:26.179217" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:26.164875" elapsed="0.014478"/>
+</kw>
+<arg>firefox</arg>
+<arg>${base_url}</arg>
+<arg>768</arg>
+<arg>1024</arg>
+<status status="PASS" start="2024-03-25T22:10:25.232887" elapsed="0.946593"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:26.239251" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/firefox_screenshot_768x1024_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/firefox_screenshot_768x1024_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:26.180445" elapsed="0.058924"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:26.179708" elapsed="0.059776"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.240129" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:26.239651" elapsed="5.000977"/>
+</kw>
+<doc>Take Screenshot with Firefox web browser with set resolution in 768x1024</doc>
+<tag>768x1024</tag>
+<tag>firefox</tag>
+<status status="PASS" start="2024-03-25T22:10:25.230890" elapsed="6.010858"/>
+</test>
+<doc>Take Screenshot with different browsers and resolutions</doc>
+<meta name="Browser">firefox</meta>
+<meta name="Website Tested">https://www.ebay.com/</meta>
+<status status="PASS" start="2024-03-25T22:10:12.137842" elapsed="19.151011"/>
+</suite>
+<suite id="s1-s3" name="Safari" source="/Users/adrianovalumin/Downloads/automation-challenge/tests/safari.robot">
+<test id="s1-s3-t1" name="Take Screenshot with Safari in 320x480" line="7">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.298877" level="INFO">${resolutionWidth} = 320</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.298392" elapsed="0.000523"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.299459" level="INFO">${resolutionHeight} = 480</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.299022" elapsed="0.000467"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.300036" level="INFO">${browserName} = webkit</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.299586" elapsed="0.000479"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.300268" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.300154" elapsed="0.000141"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.300735" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.300586" elapsed="0.000185"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:31.300996" level="INFO">Set suite metadata 'Browser' to value 'webkit'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.300867" elapsed="0.000159"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:31.300400" elapsed="0.000677"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:31.301772" level="INFO">{"browser": "webkit", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 60000.0, "tracesDir": "/Users/adrianovalumin/Downloads/automation-challenge/results/browser/traces/59e564bb-ac91-439d-a59d-3c7c642cad4f"}</msg>
+<msg time="2024-03-25T22:10:31.469518" level="INFO">Successfully created browser with options: {"browser":"webkit","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":60000,"tracesDir":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/traces/59e564bb-ac91-439d-a59d-3c7c642cad4f"}</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.301193" elapsed="0.168423"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<msg time="2024-03-25T22:10:31.470720" level="INFO">No context open.</msg>
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.469771" elapsed="0.000994"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:32.584297" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:32.584356" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:31.470858" elapsed="1.113581"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:32.629566" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:32.584605" elapsed="0.045058"/>
+</kw>
+<arg>webkit</arg>
+<arg>${base_url}</arg>
+<arg>320</arg>
+<arg>480</arg>
+<status status="PASS" start="2024-03-25T22:10:31.298098" elapsed="1.331653"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:33.371701" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/webkit_screenshot_320x480_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/webkit_screenshot_320x480_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:32.630159" elapsed="0.741652"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:32.629932" elapsed="0.742204"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.374626" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:33.372330" elapsed="5.002428"/>
+</kw>
+<doc>Take Screenshot with Safari web browser with set resolution in 320x480</doc>
+<tag>320x480</tag>
+<tag>safari</tag>
+<status status="PASS" start="2024-03-25T22:10:31.296808" elapsed="7.078228"/>
+</test>
+<test id="s1-s3-t2" name="Take Screenshot with Safari in 480x800" line="14">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.429784" level="INFO">${resolutionWidth} = 480</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.429313" elapsed="0.000519"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.430315" level="INFO">${resolutionHeight} = 800</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.429941" elapsed="0.000400"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.430792" level="INFO">${browserName} = webkit</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.430420" elapsed="0.000395"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.430986" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.430889" elapsed="0.000118"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.431403" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.431272" elapsed="0.000160"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:38.431611" level="INFO">Set suite metadata 'Browser' to value 'webkit'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.431501" elapsed="0.000135"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:38.431104" elapsed="0.000575"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:38.432079" level="INFO">Switching browser to browser=9e603170-55f3-4bed-91b1-d9a00fd6f2b2</msg>
+<msg time="2024-03-25T22:10:38.433329" level="INFO">Successfully changed active browser: browser=9e603170-55f3-4bed-91b1-d9a00fd6f2b2</msg>
+<msg time="2024-03-25T22:10:38.433369" level="INFO">Reusing existing browser with id: browser=9e603170-55f3-4bed-91b1-d9a00fd6f2b2</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.431750" elapsed="0.001651"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.433522" elapsed="0.000309"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:39.636465" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:39.636530" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:38.433925" elapsed="1.202702"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:39.653514" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:39.636824" elapsed="0.016797"/>
+</kw>
+<arg>webkit</arg>
+<arg>${base_url}</arg>
+<arg>480</arg>
+<arg>800</arg>
+<status status="PASS" start="2024-03-25T22:10:38.429003" elapsed="1.224711"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:40.468935" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/webkit_screenshot_480x800_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/webkit_screenshot_480x800_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:39.654110" elapsed="0.814927"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:39.653905" elapsed="0.815234"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.470905" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:40.469314" elapsed="5.002100"/>
+</kw>
+<doc>Take Screenshot with Safari web browser with set resolution in 480x800</doc>
+<tag>480x800</tag>
+<tag>safari</tag>
+<status status="PASS" start="2024-03-25T22:10:38.426896" elapsed="7.045636"/>
+</test>
+<test id="s1-s3-t3" name="Take Screenshot with Safari in 768x1024" line="21">
+<kw name="Start Web Browser" owner="base">
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.522933" level="INFO">${resolutionWidth} = 768</msg>
+<arg>${resolutionWidth}</arg>
+<arg>${width}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.522442" elapsed="0.000530"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.523524" level="INFO">${resolutionHeight} = 1024</msg>
+<arg>${resolutionHeight}</arg>
+<arg>${height}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.523081" elapsed="0.000474"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.524114" level="INFO">${browserName} = webkit</msg>
+<arg>${browserName}</arg>
+<arg>${browser}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.523649" elapsed="0.000495"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.524354" level="INFO">${url} = https://www.ebay.com/</msg>
+<arg>${url}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.524237" elapsed="0.000144"/>
+</kw>
+<kw name="Update Test Documentation" owner="base">
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.524841" level="INFO">Set suite metadata 'Website Tested' to value 'https://www.ebay.com/'.</msg>
+<arg>Website Tested</arg>
+<arg>${url}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.524689" elapsed="0.000190"/>
+</kw>
+<kw name="Set Suite Metadata" owner="BuiltIn">
+<msg time="2024-03-25T22:10:45.525104" level="INFO">Set suite metadata 'Browser' to value 'webkit'.</msg>
+<arg>Browser</arg>
+<arg>${browserName}</arg>
+<doc>Sets metadata for the current test suite.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.524968" elapsed="0.000451"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:45.524493" elapsed="0.000996"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-03-25T22:10:45.526005" level="INFO">Switching browser to browser=9e603170-55f3-4bed-91b1-d9a00fd6f2b2</msg>
+<msg time="2024-03-25T22:10:45.527153" level="INFO">Successfully changed active browser: browser=9e603170-55f3-4bed-91b1-d9a00fd6f2b2</msg>
+<msg time="2024-03-25T22:10:45.527199" level="INFO">Reusing existing browser with id: browser=9e603170-55f3-4bed-91b1-d9a00fd6f2b2</msg>
+<arg>${browser}</arg>
+<arg>False</arg>
+<arg>timeout=60</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.525612" elapsed="0.001624"/>
+</kw>
+<kw name="Set Browser Timeout" owner="Browser">
+<arg>15s</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the timeout used by most input and getter keywords.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.527371" elapsed="0.000272"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-03-25T22:10:46.375520" level="INFO">Successfully initialized new page object and opened url: https://www.ebay.com/</msg>
+<msg time="2024-03-25T22:10:46.375573" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${url}</arg>
+<arg>domcontentloaded</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-03-25T22:10:45.527739" elapsed="0.847915"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2024-03-25T22:10:46.425879" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>${width}</arg>
+<arg>${height}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2024-03-25T22:10:46.375810" elapsed="0.050186"/>
+</kw>
+<arg>webkit</arg>
+<arg>${base_url}</arg>
+<arg>768</arg>
+<arg>1024</arg>
+<status status="PASS" start="2024-03-25T22:10:45.522146" elapsed="0.903946"/>
+</kw>
+<kw name="Capture Custom Screenshot" owner="support">
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2024-03-25T22:10:47.220012" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/webkit_screenshot_768x1024_001.png.png" target="_blank"&gt;&lt;img src="browser/screenshot/webkit_screenshot_768x1024_001.png.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<arg>${browserName}_screenshot_${resolutionWidth}x${resolutionHeight}_00{index}.png</arg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2024-03-25T22:10:46.426494" elapsed="0.793606"/>
+</kw>
+<status status="PASS" start="2024-03-25T22:10:46.426273" elapsed="0.793918"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-03-25T22:10:52.222388" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-03-25T22:10:47.220347" elapsed="5.002381"/>
+</kw>
+<doc>Take Screenshot with Safari web browser with set resolution in 768x1024</doc>
+<tag>768x1024</tag>
+<tag>safari</tag>
+<status status="PASS" start="2024-03-25T22:10:45.520488" elapsed="6.702980"/>
+</test>
+<doc>Take Screenshot with different browsers and resolutions</doc>
+<meta name="Browser">webkit</meta>
+<meta name="Website Tested">https://www.ebay.com/</meta>
+<status status="PASS" start="2024-03-25T22:10:31.291493" elapsed="20.978040"/>
+</suite>
+<status status="PASS" start="2024-03-25T22:09:47.552001" elapsed="64.720848"/>
+</suite>
+<statistics>
+<total>
+<stat pass="9" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="3" fail="0" skip="0">320x480</stat>
+<stat pass="3" fail="0" skip="0">480x800</stat>
+<stat pass="3" fail="0" skip="0">768x1024</stat>
+<stat pass="3" fail="0" skip="0">chrome</stat>
+<stat pass="3" fail="0" skip="0">firefox</stat>
+<stat pass="3" fail="0" skip="0">safari</stat>
+</tag>
+<suite>
+<stat pass="9" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Chrome">Tests.Chrome</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s2" name="Firefox">Tests.Firefox</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s3" name="Safari">Tests.Safari</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

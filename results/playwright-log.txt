@@ -1,0 +1,365 @@
+{"level":30,"time":"2024-03-26T01:09:48.196Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Listening on 49722"}
+(node:83563) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-26T01:09:49.304Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:49.305Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:49.311Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:49.311Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:49.326Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-03-26T01:09:50.006Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-03-26T01:09:50.006Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-03-26T01:09:50.006Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-03-26T01:09:50.011Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:09:50.011Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:09:50.016Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:09:50.416Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:09:50.416Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:09:52.326Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:09:52.328Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:09:52.409Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:09:52.411Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:09:52.411Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/chromium_screenshot_320x480_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:09:52.451Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:09:57.462Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.466Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.470Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.472Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.475Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:09:57.475Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=30728c31-4c44-4a41-a4e4-588622ea7e8c"}
+{"level":30,"time":"2024-03-26T01:09:57.475Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:09:57.486Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.487Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.488Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:09:57.489Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:09:57.490Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:09:57.490Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:09:57.492Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=30728c31-4c44-4a41-a4e4-588622ea7e8c"}
+{"level":30,"time":"2024-03-26T01:09:57.492Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:09:57.495Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.499Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.501Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:09:57.501Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=30728c31-4c44-4a41-a4e4-588622ea7e8c"}
+{"level":30,"time":"2024-03-26T01:09:57.501Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:09:57.510Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:09:57.524Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=b24f641a-5d2a-41da-ad3f-43fbc96ac37f from context=ec687b60-255b-436e-93d0-f1964cd22349 page stack"}
+{"level":30,"time":"2024-03-26T01:09:57.547Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:09:57.549Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.549Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:09:57.556Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:09:57.556Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:09:57.558Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:09:57.558Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:09:57.561Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:09:57.701Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:09:57.701Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:09:59.588Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:09:59.590Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:09:59.723Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:09:59.725Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:09:59.725Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/chromium_screenshot_480x800_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:09:59.827Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:04.834Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.837Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.841Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.843Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.845Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:04.845Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=1bb96091-fb76-496e-ad42-086fce3c4e4c"}
+{"level":30,"time":"2024-03-26T01:10:04.845Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:04.850Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.851Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.853Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:04.853Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:04.855Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:04.856Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:04.857Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=1bb96091-fb76-496e-ad42-086fce3c4e4c"}
+{"level":30,"time":"2024-03-26T01:10:04.857Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:04.873Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.874Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.875Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:04.875Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=1bb96091-fb76-496e-ad42-086fce3c4e4c"}
+{"level":30,"time":"2024-03-26T01:10:04.875Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:04.879Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:04.892Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=b9263739-bcc7-4003-9c20-3c80e4349f81 from context=385bbd73-02c0-48c7-a502-3d63ddb8a933 page stack"}
+{"level":30,"time":"2024-03-26T01:10:04.903Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:04.905Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.905Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:04.913Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:04.913Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:04.916Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:04.916Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:04.920Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:05.068Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:05.068Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:06.971Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:06.972Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:06.999Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:07.002Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:07.002Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/chromium_screenshot_768x1024_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:07.053Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:12.061Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.064Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.067Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.070Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.072Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:12.072Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=9b37d97f-5cd5-4cd8-b03d-9260cbec62c9"}
+{"level":30,"time":"2024-03-26T01:10:12.072Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:12.079Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.081Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.083Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:12.083Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:12.085Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:12.085Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:12.086Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=9b37d97f-5cd5-4cd8-b03d-9260cbec62c9"}
+{"level":30,"time":"2024-03-26T01:10:12.086Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:12.098Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.099Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.100Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:12.100Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=9b37d97f-5cd5-4cd8-b03d-9260cbec62c9"}
+{"level":30,"time":"2024-03-26T01:10:12.100Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:12.101Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:12.127Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=ea8f3277-1020-413d-9d19-4db7248ffda8 from context=e7fb4210-48bf-41c6-b4cb-62593d22f0b4 page stack"}
+{"level":30,"time":"2024-03-26T01:10:12.134Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:12.137Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.137Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.141Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.141Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.142Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.142Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:12.148Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-03-26T01:10:12.658Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Adding browser to stack: firefox, version: 121.0"}
+{"level":30,"time":"2024-03-26T01:10:12.658Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-03-26T01:10:12.658Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-03-26T01:10:12.660Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:12.660Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:12.670Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:13.246Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:13.246Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:14.079Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:14.081Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:14.084Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:14.086Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:14.086Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/firefox_screenshot_320x480_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:14.201Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:19.210Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.213Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.215Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.217Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.219Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:19.219Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e0251a70-d301-495f-ada2-a5cd82ff37ad"}
+{"level":30,"time":"2024-03-26T01:10:19.219Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:19.221Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.222Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.224Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:19.224Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:19.225Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:19.225Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:19.226Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e0251a70-d301-495f-ada2-a5cd82ff37ad"}
+{"level":30,"time":"2024-03-26T01:10:19.226Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:19.228Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.229Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.230Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:19.230Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e0251a70-d301-495f-ada2-a5cd82ff37ad"}
+{"level":30,"time":"2024-03-26T01:10:19.230Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:19.231Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:19.234Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=b219b3cc-13ff-47ce-b0f6-8321377c5df0 from context=c7ba97ed-bfe3-4867-b738-79976f26cfb6 page stack"}
+{"level":30,"time":"2024-03-26T01:10:19.237Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:19.238Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.238Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:19.244Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:19.244Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:19.245Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:19.245Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:19.269Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:19.405Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:19.405Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:20.122Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:20.124Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:20.135Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:20.137Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:20.137Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/firefox_screenshot_480x800_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:20.190Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:25.197Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.199Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.202Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.204Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.205Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:25.205Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e5b6a0fd-87d4-4a72-8a48-db8aeb993d70"}
+{"level":30,"time":"2024-03-26T01:10:25.205Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:25.208Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.209Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.210Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:25.211Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:25.212Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:25.212Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:25.213Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e5b6a0fd-87d4-4a72-8a48-db8aeb993d70"}
+{"level":30,"time":"2024-03-26T01:10:25.213Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:25.215Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.216Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.217Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:25.217Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e5b6a0fd-87d4-4a72-8a48-db8aeb993d70"}
+{"level":30,"time":"2024-03-26T01:10:25.217Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:25.218Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:25.221Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=641a4198-9c02-4c91-8baa-da4a433c9e28 from context=ec0427f6-a530-4feb-adbd-d3ccd9e84a53 page stack"}
+{"level":30,"time":"2024-03-26T01:10:25.229Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:25.231Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.231Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:25.237Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:25.237Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:25.239Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:25.239Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:25.249Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:25.414Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:25.414Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:26.163Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:26.165Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:26.178Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:26.181Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:26.181Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/firefox_screenshot_768x1024_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:26.238Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:31.245Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.250Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.254Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.258Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.261Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:31.261Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e2e32a78-fd7b-431d-ae58-b57141f3cc91"}
+{"level":30,"time":"2024-03-26T01:10:31.261Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:31.263Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.265Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.266Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:31.267Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:31.268Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:31.268Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:31.270Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e2e32a78-fd7b-431d-ae58-b57141f3cc91"}
+{"level":30,"time":"2024-03-26T01:10:31.270Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:31.272Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.273Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.274Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:31.274Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=e2e32a78-fd7b-431d-ae58-b57141f3cc91"}
+{"level":30,"time":"2024-03-26T01:10:31.274Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:31.275Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:31.279Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=63dea372-6638-437d-83c8-f80f00334bf9 from context=e82757c9-d909-47e4-a03f-15bada40114b page stack"}
+{"level":30,"time":"2024-03-26T01:10:31.287Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:31.290Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.290Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.295Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.296Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.297Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.297Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:31.302Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-03-26T01:10:31.469Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Adding browser to stack: webkit, version: 17.4"}
+{"level":30,"time":"2024-03-26T01:10:31.469Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-03-26T01:10:31.469Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-03-26T01:10:31.471Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:31.471Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:31.517Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:31.825Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:31.825Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:32.583Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:32.585Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:32.629Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:32.631Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:32.631Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/webkit_screenshot_320x480_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:33.371Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:38.376Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.377Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.379Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.380Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.381Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:38.381Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=a298f449-5c86-4273-9140-026b8f2eb419"}
+{"level":30,"time":"2024-03-26T01:10:38.381Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:38.382Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.405Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.406Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:38.406Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:38.407Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:38.407Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:38.408Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=a298f449-5c86-4273-9140-026b8f2eb419"}
+{"level":30,"time":"2024-03-26T01:10:38.408Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:38.410Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.411Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.412Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:38.412Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=a298f449-5c86-4273-9140-026b8f2eb419"}
+{"level":30,"time":"2024-03-26T01:10:38.412Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:38.413Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:38.425Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=a92ab9f6-58b4-4a59-98b6-14b948da9f2d from context=490644ba-9491-451e-9425-12a28deebf22 page stack"}
+{"level":30,"time":"2024-03-26T01:10:38.425Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:38.428Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.428Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:38.432Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:38.433Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:38.434Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:38.434Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:38.440Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:38.627Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:38.628Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:39.635Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:39.637Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:39.653Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:39.655Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:39.655Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/webkit_screenshot_480x800_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:40.468Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:45.476Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.479Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.482Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.484Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.487Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:45.487Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=206b998d-975c-41b0-b548-65a4c72e16f0"}
+{"level":30,"time":"2024-03-26T01:10:45.487Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:45.490Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.491Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.493Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:45.493Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:45.494Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:45.495Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:45.496Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=206b998d-975c-41b0-b548-65a4c72e16f0"}
+{"level":30,"time":"2024-03-26T01:10:45.496Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:45.500Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.513Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.514Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:45.514Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=206b998d-975c-41b0-b548-65a4c72e16f0"}
+{"level":30,"time":"2024-03-26T01:10:45.514Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:45.515Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:45.519Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=34ca2ae0-43a9-4d56-be06-ec7ea129a02d from context=1c6d3e76-39c6-4b6e-a44b-6d987967ea25 page stack"}
+{"level":30,"time":"2024-03-26T01:10:45.519Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:45.521Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.521Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:45.526Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:45.526Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:45.528Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:45.528Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-26T01:10:45.531Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:45.699Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-26T01:10:45.699Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:46.375Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method newPage"}
+{"level":30,"time":"2024-03-26T01:10:46.376Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:46.425Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2024-03-26T01:10:46.427Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:46.427Z","pid":83563,"hostname":"MBP-de-Adriano","Take screenshot with options: ":{"path":"/Users/adrianovalumin/Downloads/automation-challenge/results/browser/screenshot/webkit_screenshot_768x1024_001.png.png","fileType":"png","fullPage":false,"timeout":15000,"omitBackground":false}}
+{"level":30,"time":"2024-03-26T01:10:47.219Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-03-26T01:10:52.225Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.228Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.232Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.234Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.237Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:52.237Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=6b24a288-3fab-4806-b0cf-aba5d5b7842e"}
+{"level":30,"time":"2024-03-26T01:10:52.237Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:52.241Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.242Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.245Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:52.245Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:52.246Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:52.247Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-26T01:10:52.247Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=6b24a288-3fab-4806-b0cf-aba5d5b7842e"}
+{"level":30,"time":"2024-03-26T01:10:52.247Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:52.248Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.261Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.262Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active context"}
+{"level":30,"time":"2024-03-26T01:10:52.262Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changing current active page: page=6b24a288-3fab-4806-b0cf-aba5d5b7842e"}
+{"level":30,"time":"2024-03-26T01:10:52.262Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Changed active page"}
+{"level":30,"time":"2024-03-26T01:10:52.263Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:52.268Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Removed page=b7d10e13-7f92-4559-90aa-7edd31722a9c from context=cb8ff908-5558-4596-8db0-d9f8c7a2cd3a page stack"}
+{"level":30,"time":"2024-03-26T01:10:52.268Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-26T01:10:52.271Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.271Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-26T01:10:52.309Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-26T01:10:52.670Z","pid":83563,"hostname":"MBP-de-Adriano","msg":"End of node method closeAllBrowsers"}

@@ -1,0 +1,14 @@
+# Environment and Configuration Files:
+.Python
+pyvenv.cfg
+bin/
+lib/
+
+# IDE/Editor Directories:
+.vscode
+
+# Log Files:
+results/browser/traces/
+
+# OS Files/Metadata:
+*.DS_Store*
