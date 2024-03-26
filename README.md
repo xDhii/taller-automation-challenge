@@ -57,7 +57,7 @@ Here are the list for available test tags:
 'firefox', 'chromium', 'webkit', '320x480', '480x800', '768x1024'
 
 ## Checking HTML Report
-After running the tests, you can check the HTML report generated in the `results` folder.
+After running the tests, you can check the HTML report generated in the `results` folder. File `log.html` contains more details while `report.html` is the main summary.
 Inside each Suite/Test, it was added the information 'Website' with the URL of the website that was tested.
 Test report also have white/dark mode. To switch, just click on the sun/moon icon on the bottom right corner.
 
