@@ -1,4 +1,4 @@
-# robotframework-web-automation
+# Taller Web Automation Challenge
 
 This repository contains the challenge project for web automation using Robot Framework.
 
